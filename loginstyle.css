@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(125, 7%, 35%);
+}
+.container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 400px;
+height: 450px;
+background-color: #28a745;
+text-align: center;
+border-radius: 5px;
+}
+
+form {
+    background-color: #fff; /* Set background color of the form */
+    padding: 20px;
+    
+    margin-top: 20px; /* Adjust margin-top as needed */
+    width: 360px;
+    height: 400px;
+}
+.logo2 {
+    height: 105px;
+}
+
+.logo img {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.logo a {
+    text-decoration: none;
+    line-height: 80px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container .logo1,
+.logo-container .logo2 {
+    width: 100px;
+    height: auto;
+}
+
+.logo-container h1 {
+    margin: 0;
+    line-height: 200px;
+}
+
+.logo-container a {
+    text-decoration: none;
+    line-height: 80px;
+}
+
+a {
+    font-size: 40px;
+    color: #ffffff;
+    margin: 0;
+    padding: 5px;
+    height: 50px;
+}
+
+
+
+.ips {
+    color: #ffdb58;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar_icon {
+    color: #28a745; /* Green color */
+}
+.fa-lock {
+    color: #28a745; /* Green color */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: hsl(125, 7%, 35%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+.input-icon {
+    display: flex;
+    align-items: center;
+}
+
+.input-icon .navbar_icon {
+    margin-right: 10px; /* Adjust margin as needed */
+}
+
+.input-icon input[type="text"] {
+    padding-left: 30px; /* Adjust padding to make space for the icon */
+    width: 200px;
+    height: 40px;
+}
+
+.input-icon2 {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.input-icon2 a i {
+    font-size: 45px; /* Adjust size as needed */
+    margin-right: 10px; /* Adjust margin as needed */
+}
+
+.input-icon2 input[type="password"] {
+    padding-left: 30px; /* Adjust padding to make space for the icon */
+    width: 200px;
+    height: 40px;
+}
+.input-icon2 a.forgot-password {
+    position: absolute;
+    top: 90%;
+    left: 200px;
+    font-size: 14px; /* Adjust font size as needed */
+    color: #ffdb58; /* Adjust color as needed */
+}
+.input-icon2 label.remember-me {
+    position: absolute;
+    top: 100%;
+    left: 70px;
+    font-size: 14px; /* Adjust font size as needed */
+    color: #ffdb58; /* Adjust color as needed */
+}
+.input-icon2 input[type="checkbox"] {
+    position: absolute;
+    top: 100%;
+    left: 50px;
+}
+
+.signup-button {
+    display: block;
+    padding: 10px 20px;
+    background-color: hsl(125, 7%, 35%);
+    color:white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 60px;
+    height: 10px;
+    font-size: 14px;
+    margin: auto; /* Center the button horizontally */
+}
+
+
+
+.signup-button:hover {
+    background-color: #cdd8e4;
+} 
